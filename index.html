@@ -13,7 +13,9 @@
     <link rel="stylesheet" href="./Tienda Online_files/styleFavorite.css">
     <link rel="stylesheet" href="./Tienda Online_files/styleFooter.css">
     <link rel="stylesheet" href="./Tienda Online_files/styleMenu.css">
-    <script src="https://kit.fontawesome.com/7fc41b9207.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./Tienda Online_files/form_busqueda.css">
+    <!--link de font awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -27,16 +29,20 @@
                         <li class="menu__item"><a href="index.html" class="menu__link">Inicio</a></li>
                         <li class="menu__item"><a href="index.html" class="menu__link">Productos</a></li>
                         <li class="menu__item"><a href="index.html" class="menu__link">Pedidos</a></li>
-                        <li class="menu__item"><a href="index.html" class="menu__link">Contacto</a></li>
+                        <li class="menu__item"><a href="contacto.html" class="menu__link">Contacto</a></li>
                     </ul>
                 </nav>
             </div>
             <div class="main-header__container">
-                <a href="" class="main-header__link">Iniciar Sesión<i class="fa-solid fa-user"></i></a>
-                <a href="" class="main-header__btn"> Carrito<i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="iniciarsesion.php" class="main-header__link">Iniciar Sesión <i class="fa-solid fa-user"></i></a>
+                <a href="" class="main-header__btn">Carrito <i class="fa-solid fa-cart-shopping"></i></a>
             </div>
-            <div class="main-header__container">
-                <input type="search" class="main-header__input" placeholder="Buscar productos"><i class="fa-solid fa-magnifying-glass"></i>
+
+            <div class="search-container">
+                <form action="">
+                  <input type="text" placeholder="Buscar productos..." name="search">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
             </div>
         </div>
     </header>
@@ -75,6 +81,7 @@
                     <a href=""><img src="./Tienda Online_files/food0.jpeg" alt="" class="product__img"></a>
                     <div class="product__description">
                         <h3 class="product__tittle">Pack 1</h3>
+                        <h5 class="product__info" >Informacion acerca del producto </h5>
                         <span class="product__price">$---</span>
                     </div>
                     <a href="" class="product__icon"><i class="fa-solid fa-cart-plus"></i></a>
