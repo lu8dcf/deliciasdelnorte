@@ -27,6 +27,12 @@
     font-weight: normal;
 }
 
+.product__info{
+    text-align: left;
+    font-size: small;
+
+}
+
 .product__price{
     color: rgb(128, 128, 128);
     font-weight: bold;
