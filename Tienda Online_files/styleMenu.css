@@ -8,7 +8,7 @@
   border-radius: 8px;
 }
 .fa-solid.fa-bars{
-    color: rgba(51, 54, 253, 0.74);
+  color: rgba(51, 54, 253, 0.74);
 }
 
 .main-nav {
@@ -45,6 +45,7 @@
 .menu__link:hover {
   background: white;
   color: #5270f1;
+  
 }
 
 .show {
