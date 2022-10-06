@@ -192,6 +192,13 @@ form .btn input[type="submit"]{
     font-size: 0.8em;
 }
 
+.salio_mal{
+  background-color: aqua;
+}
+
+
+
+
 @media screen and (min-width:1024px){
     .footer_form_inicio_sesion{
         display: grid;
